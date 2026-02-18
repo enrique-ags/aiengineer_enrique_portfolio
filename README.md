@@ -22,7 +22,7 @@ En **macOS**, ejecuta:
 
 ```bash
 conda install -n sentiment_nlp pytorch::pytorch -y
-pip install transformers<4.41
+pip install 'transformers<4.41'
 pip install huggingface_hub
 pip install 'numpy<2'
 ```
